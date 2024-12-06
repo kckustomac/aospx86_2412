@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Android-x86 - Porting Android to x86</title>
+  <link rel="stylesheet" type="text/css" href="master.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="mobile.png">
+<style>
+            .code-snippet {
+              margin-top: 16px!important;
+              margin-bottom: 16px!important;
+            }
+            .code-snippet {
+              width: auto;
+              background-color: #2b2b2b;
+              padding: 8px 12px;
+              border-left: 4px solid #14b9ff;
+              word-wrap: normal;
+              overflow: scroll;
+              white-space: nowrap;
+            }
+
+            .code-snippet {
+              font-family: Consolas,"courier new";
+              font-size: 16px;
+            }
+
+                  .code-snippet-inv {
+              margin-top: 16px!important;
+              margin-bottom: 16px!important;
+            }
+            .code-snippet-inv {
+              width: auto;
+              background-color: #b0c9ff;
+              padding: 8px 12px;
+              border-left: 4px solid #000000;
+              word-wrap: normal;
+              overflow: scroll;
+              white-space: nowrap;
+            }
+
+            .code-snippet-inv {
+              font-family: Consolas,"courier new";
+              font-size: 16px;
+            }
+    </style>
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <a class="active-navbar-link" href="index.html">
+          <li>Home</li>
+      </a>
+      <a class="navbar-link" href="download.html">
+          <li>Download</li>
+      </a>
+      <a class="navbar-link" href="credits.html">
+          <li>Credits</li>
+      </a>
+      <a class="navbar-link" href="donate.html">
+          <li>Donate</li>
+      </a>
+      <a class="navbar-link" href="source.html">
+          <li>Get Source</li>
+      </a>
+      <a class="navbar-link" href="installhowto.html">
+          <li>Installation</li>
+      </a>
+      <a class="navbar-link" href="screenshots.html">
+          <li>Screenshots</li>
+      </a>
+      <a class="navbar-link" href="documentation.html">
+          <li>Documentation</li>
+      </a>
+      <a class="navbar-link" href="releases.html">
+          <li>Releases</li>
+      </a>
+      <a class="navbar-link" href="contact.html">
+          <li>Contact Us</li>
+      </a>
+      <a class="navbar-link" href="changelog.html">
+          <li>News</li>
+      </a>
+    </ul>
+  </nav>
+  <div class="openNav">
+    <div class="icon"></div>
+  </div>
+  <!--HTML of main page-->
+  <div class="wrapper">
+    <section>
+      <h1 id="top" class="heading">Android x86</h1>
+      <h2 class="subheading">Run Android on your PC</h2>
+      <br>
+      <h2>Donate</h2>
+      <img class="coffee" border="0" src="http://www.android-x86.org/_/rsrc/1509507455917/donate/X86_Coffee_Banner.png"></img>
+
+      <h2>Donate to us on Paypal</h2>
+
+      <!--Paypal Embed-->
+      <div id="dest"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> <input type="hidden" name="cmd" value="_xclick"> <input type="hidden" name="business" value="cwhuang@linux.org.tw"> <input type="hidden" name="lc" value="US"> <input type="hidden" name="item_name" value="Android-x86 Sponsorship"> <input type="hidden" name="button_subtype" value="services"> <input type="hidden" name="no_note" value="0"> <input type="hidden" name="currency_code" value="USD"> <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest"> <table> <tbody><tr><td><input type="hidden" name="on0" value="android-x86 sponsorship">android-x86 sponsorship</td></tr><tr><td><select name="os0">  <option value="donaton">donaton $10.00 USD</option>  <option value="donation">donation $25.00 USD</option>  <option value="donation">donation $50.00 USD</option>  <option value="donation">donation $75.00 USD</option>  <option value="donation">donation $100.00 USD</option> </select> </td></tr> </tbody></table> <input type="hidden" name="currency_code" value="USD"> <input type="hidden" name="option_select0" value="donaton"> <input type="hidden" name="option_amount0" value="10.00"> <input type="hidden" name="option_select1" value="donation"> <input type="hidden" name="option_amount1" value="25.00"> <input type="hidden" name="option_select2" value="donation"> <input type="hidden" name="option_amount2" value="50.00"> <input type="hidden" name="option_select3" value="donation"> <input type="hidden" name="option_amount3" value="75.00"> <input type="hidden" name="option_select4" value="donation"> <input type="hidden" name="option_amount4" value="100.00"> <input type="hidden" name="option_index" value="0"> <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypalobjects.com/zh_TW/i/scr/pixel.gif" width="1" height="1"> </form>  </div>
+      <br><br>
+
+      <h2>Why?</h2>
+
+      <p>
+        This is an <a href="http://www.opensource.org/osd.html">open source project</a>. Like most other open source projects, we are volunteers that work without pay. Your support is one of the most important reasons why we're able continue working on it.
+        <br>We receive a lot of requests such as :</p>
+      <ul>
+        <li>Does Android-x86 support my xxx netbook?</li>
+        <li>Could you solve the yyy issue for my zzz tablet?</li>
+      </ul>
+      <p>We cannot help, unless we have that device to debug and test. We are not rich enough to buy every device that the community asks us to support.
+        <br> If you are a vendor that plans to ship or has already shipped products based on Android-x86, you should seriously consider making a donation. Because the more mature and successful our project becomes, the more better your products will be.</p>
+
+
+      <h2>What?</h2>
+      <P>We accept devices, money and developers.
+        <br> Needless to say, we need more devices. We hope to support more wide range of devices. If you hope for us to be able to support your netbook/tablet, consider donating one. If you are a manufacturer, donate your products so that we can support them.</P>
+      <p>The project doesn't need much money to run. Most of the resources we use are free services provided by the open source community or sponsors, except the DNS registration. However, money donation is helpful. At least it makes us happier, even one
+        dollar. We can buy some beers. :-)</p>
+      <p>If you are a vendor working on Android-x86 based products, ask your developers to work with us, and contribute back your bug fixes and improvements.</p>
+
+      <h2>Who?</h2>
+      <p>The project is founded by Chih-Wei Huang (cwhuang, in Taiwan) and Yi Sun (beyounn, in U.S.). We have developers from France, England, America, Japan, China Mainland and Korea, etc. See <a href="credits.html">credits</a> for more information regarding who's involved.</p>
+
+      <h2>How?</h2> For financial support, please consider donating via our Ethereum address:
+        <div class="code-snippet"><span style="color:#d1d1d1">x22b022Cf402B32cd301b1Aaa47DB177271766f41.</span></div>
+
+      <br>If you'd like to donate money, just click the donate icon shown in the page, and fill the necessary information.
+      <br>
+      <p>If you are going to donate some devices, send a private email to contact at <b>android-x86.org.</b></p>
+      <!--End of Content-->
+      <div id="f-padding"></div>
+    </section>
+    <section class="bg">
+      <div class="bg"></div>
+      <div class="clearfix"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="cap">
+
+        <a href="#" id="scroll-top" class="scroll-to-top">
+                      Back to top
+                  </a>
+      </div>
+      <div class="footer-copyright">
+        <div class="navbar-link">
+          &copy; 2009-2019 Android x86 | <a class="navbar-link" id="easter" href="mailto:aryabhushan2003@gmail.com">@arya</a> & <a class="navbar-link" id="easter" href="mailto:adityasood22@gmail.com">@sood</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--JAVASCRIPT CODE-->
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+    $(".openNav").click(function() {
+      $("body").toggleClass("navOpen");
+      $("nav").toggleClass("open");
+      $(".wrapper").toggleClass("open");
+      $(this).toggleClass("open");
+    });
+  </script>
+
+
+</body>
+
+</html>
